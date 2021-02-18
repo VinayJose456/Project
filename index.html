@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDClNvBCy6iJ5GTeyIx-vDuywyfYOBgdm4",
+        authDomain: "multiplayer-cars-5dd6a.firebaseapp.com",
+        databaseURL: "https://multiplayer-cars-5dd6a-default-rtdb.firebaseio.com",
+        projectId: "multiplayer-cars-5dd6a",
+        storageBucket: "multiplayer-cars-5dd6a.appspot.com",
+        messagingSenderId: "541229462866",
+        appId: "1:541229462866:web:787eeb930112bf6fb7768b",
+        measurementId: "G-JZC5W8M0JF"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
